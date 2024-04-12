@@ -1,0 +1,29 @@
+body {
+  height: 1220px;
+  background-color: aqua;
+}
+/* .right-design,.left-design{
+    position: relative;
+} */
+.color{
+    background-color:  hsl(256, 26%, 20%);
+    color: white;
+}
+footer{
+    background-color:   hsl(0, 0%, 98%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  /* .right-design{
+           position: absolute;
+           bottom:100px;
+  }
+  .right-intro{
+    position: relative;
+    top:10px;
+  } */

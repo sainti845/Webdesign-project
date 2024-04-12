@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/ced24f1286.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kumbh+Sans:wght@400;700&family=Lato:wght@300&family=Merriweather&family=Montserrat&family=Open+Sans&family=Raleway:wght@400;700&family=Rubik:wght@400;500;700&family=Sacramento&family=Ubuntu&display=swap"
+    rel="stylesheet"> <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    h1,
+    h2,
+    h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 2.6em;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    nav {
+      background-color: hsl(0, 0%, 75%);
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      margin: 2% 3%;
+    }
+
+    ul li {
+      list-style-type: none;
+      margin: 3%;
+      font-family: "Raleway", sans-serif;
+    }
+
+    .logo {
+      margin-right: auto;
+    }
+
+    .container {
+      display: flex;
+      margin: 0 5%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .container-item1,
+    .container-item2 {
+      flex: 40%;
+    }
+
+    .container-item1 {
+      padding: 6% 5%;
+    }
+
+    .container-item1 p {
+      color: hsl(238, 22%, 44%);
+    }
+
+    .image1 {
+      width: 90%;
+    }
+
+    .ayush {
+      width: 40%;
+      height: 11%;
+      padding: 0 7px;
+      color: hsl(0, 15%, 45%);
+    }
+
+    .btn {
+      margin-left: 10px;
+      height: 13%;
+      width: 30%;
+      background-color: hsl(224, 93%, 58%);
+      border: none;
+      color: white;
+    }
+
+    ::placeholder {
+      color: hsl(0, 0%, 75%);
+    }
+
+    .container2 {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-top: 7%;
+      background-image: url('images/bg-curve-desktop.svg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding-bottom: 40px;
+
+    }
+
+    .container2-1,
+    .container2-2 {
+      flex: 50%;
+      background-color: hsl(240, 75%, 98%);
+    }
+
+    .item1,
+    .item2 {
+      width: 90%;
+      padding-left: 6%;
+    }
+
+    .image2 {
+      width: 71%;
+      margin-left: 9%;
+
+    }
+
+    .item1 p {
+      width: 85%;
+      padding: 0 5%;
+    }
+
+    .green-line {
+      color: hsl(170, 45%, 43%);
+      text-decoration: underline;
+    }
+
+    .namedes {
+      margin: 0;
+      font-size: 12px;
+    }
+
+    .name {
+      display: inline-block;
+      height: 30px;
+    }
+
+    .avatar {
+      display: inline;
+      border-radius: 50%;
+      height: 30px;
+      margin-left: 6%;
+    }
+
+    .item2 p {
+      padding: 0px;
+      margin: 7% 7% 3%;
+      width: 46%;
+      background-color: white;
+    }
+
+    .item2 {
+      background-color: transparent;
+    }
+
+    .name h3 {
+      margin-left: 10px;
+    }
+
+    .name p {
+      font-size: 12px;
+      width: 100%;
+
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      background-color: hsl(238, 22%, 44%);
+      color: white;
+      padding: 4em;
+      align-items: center;
+
+    }
+
+    .contact-item1,
+    .contact-item2 {
+      flex: 50%;
+    }
+
+    .contact-item2 button {
+      padding: 10px;
+      margin: 10px 221px;
+    }
+
+    .sumit {
+      padding: 10px;
+      margin: 10px 221px;
+      width: 34%;
+    }
+
+    footer {
+      background-color: hsl(243, 87%, 12%);
+    }
+
+    .footer-image {
+      background-color: white;
+    }
+
+    .footer-flex {
+      display: flex;
+      color: white;
+    }
+
+    li {
+      list-style-type: none;
+
+    }
+
+    .footer-list {
+      flex-direction: column;
+    }
+
+    .footer-flex-item1,
+    .footer-flex-item2,
+    .footer-flex-item3,
+    .footer-flex-item4 {
+      flex: 20%;
+    }
+
+    @media(max-width:740px){
+      .container,.container2{
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+      .container-item1,.container-item2,.container2-1,.container2-2{
+        flex: 80%;
+        
+      }
+      
+    }
+    @media(max-width:465px){
+      body{
+        width: 300%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li class="logo"><img src="images/logo.svg" alt="logo-image"></li>
+    <li>Features</li>
+    <li>Team</li>
+    <li>Sign In</li>
+  </ul>
+
+
+  <section class="container">
+    <div class="container-item1">
+      <h2> All your files in one secure location, accessible anywhere.</h2>
+      <p class="description">Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <input class="ayush" type="email" name="Email" placeholder="Enter your email">
+      <button class="btn">Get Started</button>
+
+    </div>
+    <div class="container-item2 ">
+      <img class="image1" src="images/illustration-1.svg" alt="illustration-1">
+    </div>
+
+
+
+  </section>
+  <section class="container2">
+    <div class="container2-1">
+      <div class="item1">
+        <h2>Stay productive, wherever you are
+        </h2>
+        <p>Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <p class="green-line"> See how Fylo works</p>
+      </div>
+      <div class="item2">
+        <p>
+          Fylo has improved our team productivity by an order of magnitude. Since
+          making the switch our team has become a well-oiled collaboration machine.
+        </p>
+        <img class="avatar" src="images/avatar-testimonial.jpg" alt="avatar-testimonial">
+        <div class="name">
+          <h3 class="namedes"> Kyle Burton</h3>
+          <p class="namedes">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+    <div class="container2-2">
+      <img class="image2" src="images/illustration-2.svg" alt="illustration-2">
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-item1">
+      <h2>Get early access today</h2>
+      <p>
+        It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+    <div class="contact-item2">
+      <input class="sumit" type="email" name="" id="" placeholder="email@example.com">
+      <br>
+      <button class="btn">Get Started For Free</button>
+    </div>
+  </section>
+
+
+  <footer>
+    <img src="images/logo.svg" alt="logo image" class="footer-image">
+
+    <section class="footer-flex">
+      <div class="footer-flex-item1">
+        <ul class="footer-list">
+          <li> <img src="images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</li>
+          <li><img src="images/icon-email.svg" alt=""> example@fylo.com</li>
+        </ul>
+      </div>
+      <div class="footer-flex-item2">
+        <ul class="footer-list">
+          <li>About us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="footer-flex-item3">
+        <ul class="footer-list">
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+
+        </ul>
+      </div>
+      <div class="footer-flex-item4">
+        <ul>
+          <li><a href=""><i class="fa-brands fa-instagram"></a></i></li>
+          <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">AYUSH KAPRUWAN</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

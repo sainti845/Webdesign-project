@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(218, 28%, 13%) !important;
+
+}
+
+.description {
+    font-size: 14px;
+    width: 50%;
+    margin: auto;
+    color: #c3bfbf;
+}
+.btn1{
+    border-radius: 20px;
+    height: 44px;
+    width: 16%;
+    min-width: 100px;
+    background-color: hsl(176, 68%, 64%)!important;
+    color: #c3bfbf;
+}
+.collaborate{
+    color:#c3bfbf ;
+}
+.Link{
+    color: hsl(176, 68%, 64%);
+}
+.box{
+    width: 364px;
+    background-color:  hsl(219, 30%, 18%);
+    /* margin-right: 45px;
+    margin-left: 45px; */
+    min-height:190px;
+    padding-top: 18px;
+}
+.image{
+    height: 30px;
+}
+.name{
+    font-size: 8px;
+}
+.floating{
+    width: 52%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 4px hsl(217deg 28% 15%);
+    color: white;
+    margin: 5% auto;
+    background-color: hsl(219, 30%, 18%);
+}
+.btn2{
+    height: 42px;
+    width: 37%;
+    border-radius: 20px;
+    min-width: 200px;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+    border-radius: 20px;
+    height: 42px;
+    width: 100%;
+}
+.quote{
+    position: absolute;
+    left: 6%;
+    size: 50px;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+}
+footer{
+    background-color:  hsl(216, 53%, 9%);
+}
+.floating{
+    position: relative;
+    top: 159px;
+    margin-top: 0;
+}
+
+@media(max-width:600px){
+    .floating{
+        min-width: 300px;
+    }
+}

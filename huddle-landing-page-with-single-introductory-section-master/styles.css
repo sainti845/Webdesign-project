@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: -25px;
+    background-position-y: -9px;
+}
+
+h3 {
+    font-family: 'Poppins';
+
+}
+
+p {
+    font-family: 'open sans';
+}
+
+
+
+
+.nav {
+    margin: 40px;
+    margin-left: 47px;
+
+
+}
+
+.nav img {
+    width: 220px;
+}
+
+.main {
+    margin: 40px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.image,.explain{
+    flex: 40%;
+}
+.image img {
+
+
+    margin: 20px 20px 30px 11px;
+    height: 493px;
+    width: 658px;
+}
+
+.explain {
+    margin: auto;
+    width: 30%;
+    margin-left: 18px;
+}
+
+.explain h3 {
+    margin: 1px;
+    margin-top: -160px;
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+}
+
+.explain p {
+    font-size: 16px;
+    margin-top: 26px;
+    color: white;
+    opacity: 70%;
+
+}
+
+button {
+    margin: 2px;
+    margin-top: 33px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 1px 1px white;
+    color: violet;
+    background-color: white;
+    font-weight: 400;
+}
+
+footer {
+    float: right;
+
+    margin-top: -31px;
+    margin-right: 28px;
+}
+
+i {
+    margin: 8px;
+    font-size: 23px;
+    color: white;
+}
+
+@media(max-width:700px) {
+    body {
+        background-image: url('images/bg-mobile.svg');
+        background-attachment: local;
+        background-position: 0px -19px;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .nav {
+        margin: 36px;
+        margin-left: 24px;
+    }
+
+    .nav img {
+        width: 154px;
+    }
+
+    .image img {
+        margin: -10px 0 61px -10px;
+        height: 254px;
+        width: 295px;
+    }
+
+    .explain {
+        margin: auto;
+        width: 80%;
+    }
+
+    .explain h3 {
+        margin: 0px;
+        margin-top: -27px;
+        font-size: 22px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .explain p {
+        font-size: 14px;
+        margin-top: 20px;
+        color: white;
+        opacity: 70%;
+        text-align: center;
+    }
+
+    button {
+        margin: auto;
+        margin-top: 32px;
+        width: 70%;
+        padding: 6px;
+        border-radius: 22px;
+        text-align: center;
+        margin-left: 34px;
+        border: 2px solid white;
+        box-shadow: 1px 1px 1px 1px white;
+        color: violet;
+        background-color: white;
+        font-weight: 400;
+    }
+
+    footer {
+        float: right;
+        margin-top: 17px;
+        margin-right: 1px;
+    }
+
+    i {
+        margin: 4px;
+        font-size: 15px;
+        color: white;
+    }
+}
+
+@media screen (min-width:700) and ( max-width:1270px){
+.explain{
+margin-top: 19%;
+}
+
+.image img{
+    margin-left: auto;
+    margin-right: auto;
+}
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    flex:40%;
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+}
+.right{
+    flex: 60%;
+height: 100vh;
+    background-color: yellow;
+}

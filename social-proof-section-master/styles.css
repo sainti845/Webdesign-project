@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@100;200;300;400;500;600&family=Kumbh+Sans:wght@100;200;300;400;500&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@800&family=Poppins&family=Raleway:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --pcolor: hsl(300, 43%, 22%);
+    --scolor: hsl(333, 80%, 67%);
+    --graypcolor: hsl(303, 10%, 53%);
+    --graylight: hsl(300, 24%, 96%);
+    --font: League Spartan;
+}
+
+body {
+    background-color: white;
+    font-size: 15px;
+    font-family: var(--font);
+    margin: 3rem;
+}
+
+h1 {
+    color: var(--pcolor);
+    font-weight: 700 !important;
+
+    font-size: 3.5rem !important;
+    font-family: var(--font);
+}
+
+.star{
+    padding-top: 40px;
+}
+
+.box {
+    padding: .5rem;
+    
+    margin: 2rem;
+    border: 2px colid transparent;
+    background-color: var(--graylight);
+    border-radius: 2px;
+    color: var(--pcolor);
+    font-weight: 500 !important;
+    font-family: var(--font);
+}
+
+.box1 {
+    position: relative;
+    right: 5rem;
+
+}
+
+.box2 {
+    position: relative;
+    right: 3rem
+}
+
+.box3 {
+    position: relative;
+    right: 0rem;
+}
+
+.lower .row .card {
+    background-color: var(--pcolor);
+    color: white;
+    font-size: 15px;
+    padding: 3rem;
+}
+
+.lower {
+    margin-top: 2rem !important;
+}
+
+.upper {
+    margin-top: 1rem;
+}
+
+.main-heading{
+    padding: 0 136px 0 74px;
+}
+.lower .row .card1 {
+    position: relative;
+    top: 0;
+}
+
+.lower .row .card2 {
+    position: relative;
+    top: 1rem;
+}
+
+.lower .row .card3 {
+    position: relative;
+    top: 3rem;
+}
+
+.card-subtitle {
+    color: var(--scolor) !important;
+    margin-top: -.7rem;
+    margin-left: -1rem;
+    font-size: .8rem;
+}
+
+.card-title {
+    margin-left: -1rem;
+    font-size: 1rem;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-inline-start: 1rem;
+}
+
+.contain {
+    align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+    .card {
+        width: 15rem !important;
+    }
+
+    .upper .row {
+        justify-content: flex-start !important;
+
+        gap: 3rem;
+    }
+
+    .box {
+        width: 21rem !important;
+    }
+
+}
+
+@media screen and (max-width:1000px) and (min-width:750px){
+    .upper .row {
+        justify-content: flex-center ;
+        gap: 1rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+
+    }
+    .ayush{
+        display: block !important;
+    }
+    .star{
+        padding-left: 100px!important;
+    }
+}
+
+@media screen and (max-width:750px) {
+    h1 {
+        text-align: center !important;
+        font-size: 3.5rem !important;
+    }
+
+    .upper .row p {
+        text-align: center;
+        margin: auto;
+        font-size: 1.4rem !important;
+        margin-top: 3rem !important;
+    }
+
+    .upper .row {
+        gap: 1rem;
+    }
+
+    .box {
+        width: fit-content !important;
+        position: inherit;
+        margin: 1rem !important;
+    }
+
+    .card {
+        width: fit-content !important;
+    }
+
+
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+padding-top: 70px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

@@ -1,0 +1,99 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: rgba(194, 8, 61, 0.851);
+  background-image: url(images/bg-intro-desktop.png);
+  background-blend-mode: screen;
+  font-family: "Poppins";
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  margin: 7% 3%;
+  
+}
+.left,.right{
+    flex:20%;
+}
+
+input {
+  width:90%;
+  height: 50px;
+  margin: 3% 5%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+button{
+    height: 50px;
+    width: 90%;
+    background-color: rgb(52, 180, 52);
+    color: white;
+    margin: 3% 5%;
+    border-radius: 5px;
+}
+.bottom strong{
+    color: red;
+}
+.bottom p{
+    margin: 3% 5%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.left {
+  width: 22%;
+  /* margin: 8% 4% 0 4%; */
+  padding: 7%;
+  font-size: 22px;
+ 
+}
+.left h1{
+    font-size:71px;
+}
+.right {
+  width: 24%;
+  margin: 3% 4%;
+
+  color: black;
+}
+.right .bottom{
+    background-color: white;
+    border-radius: 8px;
+}
+.top{
+    background-color:  hsl(248, 32%, 49%);
+    height: 50px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size:100%;
+    margin-bottom: 3% ;
+    border-radius:8px ;
+}
+
+@media (max-width:600px){
+ 
+    .left,.right{
+        flex: 100%;
+    }
+    .left{
+      text-align: center;
+      font-size: 15px;
+    }
+    p{
+      font-size: 25px;
+      width: 95%;
+    }
+    .top{
+      font-size: 30px;
+      height: 100px;
+      margin-top: 90px;
+      margin-bottom: 50px;
+    }
+} 
